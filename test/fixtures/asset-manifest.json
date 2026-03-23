@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/static/js/main.abc123.js",
+    "main.js.map": "/static/js/main.abc123.js.map",
+    "vendor.js": "/static/js/vendor.def456.js",
+    "index.html": "/index.html",
+    "main.css": "/static/css/main.xyz.css"
+  },
+  "entrypoints": [
+    "static/js/runtime.js",
+    "static/js/vendor.def456.js",
+    "static/js/main.abc123.js"
+  ]
+}

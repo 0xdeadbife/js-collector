@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="/static/js/main.abc123.js"></script>
+  <script src="/static/js/vendor.def456.js"></script>
+  <script src="https://cdn.example.com/lib.js"></script>
+  <script src="//cdn.example.com/protocol-relative.js"></script>
+  <script src="../shared/utils.js"></script>
+  <link rel="modulepreload" href="/assets/module-a.js">
+  <link rel="preload" as="script" href="/assets/preload-b.js">
+  <link rel="preload" as="style" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+  <script>
+    // Inline script - should not appear in results
+    console.log('hello');
+  </script>
+  <script src="/static/js/chunk.ghi789.js"></script>
+</body>
+</html>

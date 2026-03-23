@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.js.map
+
+# recon output
+js-collector-results.*
+results.json
+urls.txt
+alive.log
+*.log
+
+# local claude settings
+.claude/settings.local.json
