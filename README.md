@@ -1,5 +1,7 @@
 # js-collector
 
+![Logo](logo.png)
+
 CLI tool to discover and enumerate JavaScript files from any web target. Built for bug bounty, pentesting, and attack surface analysis.
 
 Extracts scripts from HTML, HTTP headers, framework manifests (React, Next.js, Angular, Vue), robots.txt, sitemaps, service workers, and sourcemaps — with optional integration of external crawlers like katana and getJS.
