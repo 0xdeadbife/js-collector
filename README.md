@@ -11,7 +11,7 @@ Extracts scripts from HTML, HTTP headers, framework manifests (React, Next.js, A
 ## Installation
 
 ```bash
-git clone git@github.com:yourusername/js-collector.git
+git clone https://github.com/0xdeadbife/js-collector
 cd js-collector
 npm install -g .
 ```
